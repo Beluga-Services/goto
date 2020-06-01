@@ -5,7 +5,7 @@
 module.exports = (event, context) => {
     let redirect;
 
-    console.log('dummy log http 6');
+    console.log('dummy log http 7');
 
     /* Use a switch statement, or look up the routes in a database
      * such as MongoDB, Redis or Postgres. AWS and DigitalOcean provide
