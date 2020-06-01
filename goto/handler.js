@@ -1,9 +1,11 @@
 "use strict"
 
+// built following this guide : https://docs.openfaas.com/openfaas-cloud/user-guide/
+
 module.exports = (event, context) => {
     let redirect;
 
-    console.log('dummy log');
+    console.log('dummy log http');
 
     /* Use a switch statement, or look up the routes in a database
      * such as MongoDB, Redis or Postgres. AWS and DigitalOcean provide
